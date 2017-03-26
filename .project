@@ -15,6 +15,7 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		
 		<buildCommand>
 			<name>org.eclipse.dltk.core.scriptbuilder</name>
 			<arguments>
