@@ -1,6 +1,6 @@
 {
 	"name" : "dicr/php-mysql2i",
-	"description" : "Адаптер mysql для PHP7",
+	"description" : "mysql to mysql adapter for PHP7",
 	"type" : "library",
 	"authors" : [{
 			"name" : "Igor Tarasov",
@@ -16,6 +16,7 @@
 		]
 	},
 	"require" : {
+		"php" : ">=7.0",
 		"ext-mysqli" : "*"
 	},
 	"keywords" : [
