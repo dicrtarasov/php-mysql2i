@@ -135,4 +135,9 @@ if (! function_exists('mysql_connect')) {
     {
         return mysqli_set_charset(! empty($link) ? $link : mysql::$link, $charset);
     }
+
+    function mysql_list_fields($database_name, $table_name, $link = NULL)
+    {
+        return mysqli_query(! empty($link) ? $link : mysql::$link, sprintf('SHOW COLUMNS FROM `%s`', $table_name));
+    }
 }
