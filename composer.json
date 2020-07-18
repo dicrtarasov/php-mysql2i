@@ -1,34 +1,32 @@
 {
-	"name" : "dicr/php-mysql2i",
-	"description" : "mysql to mysql adapter for PHP7",
-	"type" : "library",
-	"authors" : [{
-			"name" : "Igor Tarasov",
-			"email" : "develop@dicr.org",
-			"homepage" : "http://dicr.org",
-			"role" : "developer"
-		}
-	],
-	"minimum-stability" : "stable",
-	"autoload" : {
-		"files" : [
-			"src/mysql2i.php"
-		]
-	},
-	"require" : {
-		"php" : ">=7.0",
-		"ext-mysqli" : "*"
-	},
-	"keywords" : [
-		"php7 mysql"
-	],
-	"repositories" : [{
-			"type" : "composer",
-			"url" : "https://asset-packagist.org"
-		}
-	],
-	"homepage" : "https://gitlab.com/dicr/php-mysql2i",
-	"support" : {
-		"source" : "https://gitlab.com/dicr/php-mysql2i.git"
-	}
+    "name": "dicr/php-mysql2i",
+    "description": "mysql to mysqli adapter for PHP7",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://gitlab.com/dicr/php-mysql2i",
+    "support": {
+        "source": "https://gitlab.com/dicr/php-mysql2i.git"
+    },
+    "authors": [
+        {
+            "name": "Igor Tarasov",
+            "email": "develop@dicr.org",
+            "homepage": "http://dicr.org",
+            "role": "developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "src/mysql2i.php"
+        ]
+    },
+    "require": {
+        "php": "~7.0",
+        "ext-mysqli": "*"
+    },
+    "keywords": ["php7", "mysql", "mysqli", "adapter"],
+    "repositories": [
+        {"type": "composer", "url": "https://asset-packagist.org"}
+    ]
 }
